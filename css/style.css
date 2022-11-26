@@ -1,0 +1,174 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url(../font/Roboto-Regular.ttf) format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', 'Helvetica Neue';
+}
+
+/* Header */
+
+header {
+  height: 100px;
+  background: #1e2735;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo-wrapper > a {
+  text-decoration: none;
+}
+
+#logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+ul li a {
+  padding: 0 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.main-section {
+  color: white;
+  background: #1c242f;
+  display: flex;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Section 1 - Discog intro */
+
+.content-main > h1,
+p {
+  margin: 20px;
+}
+
+.content-button {
+  margin: 10px 0;
+  margin-left: 20px;
+  padding: 20px 30px;
+  color: #ffffff;
+  background: #51678b;
+  border: none;
+  border-radius: 5px;
+}
+
+.main-image {
+  margin-left: 20px;
+  max-width: 600px;
+  height: auto;
+}
+
+.content-left {
+  width: 30%;
+  margin-right: 50px;
+}
+
+.content-left > h1 {
+  font-size: 48px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.content-left > p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 10px 0;
+}
+
+/* section 2 - collection */
+
+.collection-wrapper > h2 {
+  font-size: 30px;
+  color: #1c2532;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.collection-text-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.collection-text {
+  max-width: 125px;
+  margin: 50px 30px;
+  text-align: center;
+}
+
+.records {
+  height: 150px;
+  width: 150px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+}
+
+/* section 3 - Quote */
+
+.signup-section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.quotation-wrapper {
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background: #6e6b6b;
+  height: 300px;
+  padding: 10px 300px;
+  margin-bottom: 50px;
+}
+
+.quotation {
+  font-size: 30px;
+  text-align: justify;
+}
+
+.attribution {
+  font-size: 20px;
+}
+
+.signup-wrapper {
+  background: #4085f4;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 1000px;
+  margin: auto;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.sign-up {
+  color: #ffffff;
+}
+
+footer {
+  background: #293443;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 40px;
+  padding: 40px;
+}
